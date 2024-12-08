@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9680a4d5-863a-434f-a3e0-cadd45a0931e" name="Changes" comment="">
+    <list default="true" id="9680a4d5-863a-434f-a3e0-cadd45a0931e" name="Changes" comment="Added content to README file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +55,19 @@
       <option name="presentableId" value="Default" />
       <updated>1733492227330</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added content to README file.">
+      <option name="closed" value="true" />
+      <created>1733654193160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733654193160</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added content to README file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added content to README file." />
   </component>
 </project>
