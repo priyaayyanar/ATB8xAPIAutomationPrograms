@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9680a4d5-863a-434f-a3e0-cadd45a0931e" name="Changes" comment="Added content to README file.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/sampleCheck/APITest001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/sampleCheck/APITest002_DesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/sampleCheck/APITest003_NoDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/sampleCheck/APITest004_BuilderDesignPattern.java" afterDir="false" />
+    <list default="true" id="9680a4d5-863a-434f-a3e0-cadd45a0931e" name="Changes" comment="REST Assured Basic class, BuilderDesignPattern 27/11/2024">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/Integration/APITesting011_TestCaseIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/RESTAssuredBasic/GET/APITesting_005_BDDStyle_GET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/RESTAssuredBasic/GET/APITesting_006_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/RESTAssuredBasic/GET/APITesting_007_NonBDDStyle_AllureReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/RESTAssuredBasic/GET/APITesting_GET_TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/RESTAssuredBasic/PATCH/APITesting010_PATCH_NonBddStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/RESTAssuredBasic/POST/APITesting_008_BDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/RESTAssuredBasic/POST/APITesting_009_NonBDDStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/RESTAssuredBasic/PUT/APITesting010_PUT_NonBddStyle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-IntegrationTest1_AllureReport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-get-NonBDDStyle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-get-NonBDDStyle_AllureReport.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng-get.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,60 +67,132 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.APITesting010_PUT_NonBddStyle.executor": "Run",
+    "TestNG.APITesting010_PUT_NonBddStyle.test_put_nonbdd.executor": "Run",
+    "TestNG.APITesting011_TestCaseIntegration.executor": "Run",
+    "TestNG.APITesting011_TestCaseIntegration.test_update_request_put.executor": "Run",
+    "TestNG.APITesting_005_BDDStyle_GET.executor": "Run",
+    "TestNG.APITesting_005_BDDStyle_GET.test_GET_Req_NEGATIVE.executor": "Run",
+    "TestNG.APITesting_005_BDDStyle_GET.test_GET_Req_POSITIVE.executor": "Run",
+    "TestNG.APITesting_006_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting_008.test_post_BDDStyle.executor": "Run",
+    "TestNG.APITesting_009_NonBDDStyle.executor": "Run",
+    "TestNG.APITesting_009_NonBDDStyle.test_non_bdd_post.executor": "Run",
+    "TestNG.C:/Users/Praneesh/IdeaProjects/ATB8xAPIAutomationPrograms/testng-get-NonBDDStyle.xml.executor": "Run",
+    "TestNG.C:/Users/Praneesh/IdeaProjects/ATB8xAPIAutomationPrograms/testng-get-NonBDDStyle_AllureReport.xml.executor": "Run",
+    "TestNG.C:/Users/Praneesh/IdeaProjects/ATB8xAPIAutomationPrograms/testng-get.xml.executor": "Run",
+    "TestNG.C:/Users/Praneesh/IdeaProjects/ATB8xAPIAutomationPrograms/testng.xml.executor": "Run",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Praneesh/IdeaProjects/ATB8xAPIAutomationPrograms",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Praneesh\IdeaProjects\ATB8xAPIAutomationPrograms" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.RESTAssuredBasic.PATCH" />
+      <recent name="com.thetestingacademy.RESTAssuredBasic.GET" />
       <recent name="com.thetestingacademy.sampleCheck" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.APITest004_BuilderDesignPattern">
-    <configuration name="APITest001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.sampleCheck.APITest001" />
+  <component name="RunManager" selected="TestNG.APITesting011_TestCaseIntegration">
+    <configuration name="APITesting010_PUT_NonBddStyle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xAPIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.sampleCheck.*" />
+          <option name="PATTERN" value="com.thetestingacademy.RESTAssuredBasic.PUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.RESTAssuredBasic.PUT" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.RESTAssuredBasic.PUT.APITesting010_PUT_NonBddStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="APITest004_BuilderDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.sampleCheck.APITest004_BuilderDesignPattern" />
+    <configuration name="APITesting010_PUT_NonBddStyle.test_put_nonbdd" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xAPIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.sampleCheck.*" />
+          <option name="PATTERN" value="com.thetestingacademy.RESTAssuredBasic.PUT.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.RESTAssuredBasic.PUT" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.RESTAssuredBasic.PUT.APITesting010_PUT_NonBddStyle" />
+      <option name="METHOD_NAME" value="test_put_nonbdd" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.HelloWorld" />
+    <configuration name="APITesting011_TestCaseIntegration" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATB8xAPIAutomationPrograms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.*" />
+          <option name="PATTERN" value="com.thetestingacademy.Integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.Integration" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.Integration.APITesting011_TestCaseIntegration" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting011_TestCaseIntegration.test_update_request_put" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.Integration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.Integration" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.Integration.APITesting011_TestCaseIntegration" />
+      <option name="METHOD_NAME" value="test_update_request_put" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APITesting_009_NonBDDStyle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB8xAPIAutomationPrograms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.RESTAssuredBasic.POST.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.RESTAssuredBasic.POST" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.RESTAssuredBasic.POST.APITesting_009_NonBDDStyle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.APITest004_BuilderDesignPattern" />
-        <item itemvalue="Application.APITest001" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="TestNG.APITesting011_TestCaseIntegration" />
+        <item itemvalue="TestNG.APITesting011_TestCaseIntegration.test_update_request_put" />
+        <item itemvalue="TestNG.APITesting010_PUT_NonBddStyle" />
+        <item itemvalue="TestNG.APITesting010_PUT_NonBddStyle.test_put_nonbdd" />
+        <item itemvalue="TestNG.APITesting_009_NonBDDStyle" />
       </list>
     </recent_temporary>
   </component>
@@ -150,11 +229,20 @@
       <option name="project" value="LOCAL" />
       <updated>1733654636375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="REST Assured Basic class, BuilderDesignPattern 27/11/2024">
+      <option name="closed" value="true" />
+      <created>1733662124197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733662124197</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added content to README file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added content to README file." />
+    <MESSAGE value="REST Assured Basic class, BuilderDesignPattern 27/11/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST Assured Basic class, BuilderDesignPattern 27/11/2024" />
   </component>
 </project>
