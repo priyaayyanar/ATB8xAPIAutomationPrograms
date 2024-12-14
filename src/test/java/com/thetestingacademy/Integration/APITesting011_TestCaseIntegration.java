@@ -7,6 +7,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import static org.assertj.core.api.Assertions.*;
 
 public class APITesting011_TestCaseIntegration {
 
@@ -46,6 +47,8 @@ public class APITesting011_TestCaseIntegration {
         //Extract the token
         token = response.jsonPath().getString("token");
         System.out.println(token);
+
+        assertThat(token).isAlphanumeric().isNotNull().isNotBlank().isNotEmpty();
 
         return token;
     }
